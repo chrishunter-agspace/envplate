@@ -1,6 +1,6 @@
 VERSION := "1.0.0-RC1"
 REPO := envplate
-USER := kreuzwerker
+USER := chrishunter-agspace
 TOKEN = `cat .token`
 FLAGS := "-X=main.build=`git rev-parse --short HEAD` -X=main.version=$(VERSION)"
 
